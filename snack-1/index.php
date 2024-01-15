@@ -28,9 +28,9 @@
             <li>
                 <?php
                     echo $match['team1'] . " - ";
-                    echo $match['team2'] . " - ";
+                    echo $match['team2'] . " ";
                     echo $match['score1'] . " - ";
-                    echo $match['score2'] . " - ";
+                    echo $match['score2'] . " ";
                 ?>
             </li>
         <?php } ?>
