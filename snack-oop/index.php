@@ -1,4 +1,4 @@
-classe Pokemon{
+class Pokemon{
     public $nome;
     public $abilità;
     public $tipo;
