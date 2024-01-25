@@ -1,3 +1,5 @@
+
+<?php
 class Pokemon{
     public $nome;
     public $abilità;
@@ -6,11 +8,11 @@ class Pokemon{
     public $allenatore;
 
     public function __construct(String $nome, String $abilità, String $tipo, String $peso, String $allenatore,) {
-            $this->name = $nome;
-            $this->genre = $abilità;
-            $this->weight = $tipo;
-            $this->height = $peso;
-            $this->level = $allenatore;
+            $this->nome = $nome;
+            $this->abilità = $abilità;
+            $this->tipo = $tipo;
+            $this->peso = $peso;
+            $this->allenatore = $allenatore;
         }
 
         public function getName() {
@@ -27,7 +29,6 @@ class Pokemon{
 }
 
 
-$squirtle = new Pokemon();
 $squirtle->nome = 'Squirtle';
 $squirtle->abilità = 'SputaAcqua';
 $squirtle->tipo = 'Acqua';
