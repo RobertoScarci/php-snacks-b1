@@ -28,9 +28,3 @@ class Pokemon{
         }
 }
 
-
-$squirtle->nome = 'Squirtle';
-$squirtle->abilità = 'SputaAcqua';
-$squirtle->tipo = 'Acqua';
-$squirtle->peso = 'Leggero';
-$squirtle->allenatore = 'Chris';
